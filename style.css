@@ -1,0 +1,28 @@
+body{
+    background-color:black;
+    color: white;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    margin: 30px;
+    padding: 40px;
+    font-size: 60px
+  }
+  
+  img {
+    flex-direction: column;
+    max-width: auto;
+    height: 80%;
+    margin: 10px;
+  }
+  
+  
